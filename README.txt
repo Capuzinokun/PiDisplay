@@ -1,4 +1,4 @@
-To use the image display, you need to have parameters.json file present in the folder and it's structure needs to be
+To use the image display, you need to have Parameters.json file present in the folder and it's structure needs to be
 
 - json["image_urls"][<specify url with list index>]["url"] -> String
 
