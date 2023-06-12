@@ -2,7 +2,7 @@ To use the image display, you need to have parameters.json file present in the f
 
 - json["image_urls"][<specify url with list index>]["url"] -> String
 
-(Optional specify the amount of images you want to loop through with json["display_amount"] -> Int
+(Optional specify the headers and amount of images you want to loop through)
 
 Example: 
 {
@@ -11,6 +11,7 @@ Example:
       "url": <address here as string>
     }
   ],
-  "display_amount": 12
+  "display_amount": 12,
+  "headers": <headers here as string>
 }
 
